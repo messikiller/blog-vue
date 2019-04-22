@@ -2,21 +2,31 @@
   <v-container grid-list-md text-xs-center fluid class="grey darken-4 grey--text text--lighten-1">
     <v-layout>
       <v-flex xs6>
-        <div class="footer-title white--text">友情链接</div>
-        <v-btn outline color="grey" small>阿斯达</v-btn>
-        <v-btn outline color="grey" small>阿斯达</v-btn>
-        <v-btn outline color="grey" small>阿斯达</v-btn>
-        <v-btn outline color="grey" small>阿斯达</v-btn>
-        <v-btn outline color="grey" small>阿斯达</v-btn>
-        <v-btn outline color="grey" small>阿斯达</v-btn>
-        <v-btn outline color="grey" small>阿斯达</v-btn>
+        <v-layout align-center justify-center>
+          <div style="max-width: 500px;">
+            <div class="footer-title white--text">友情链接</div>
+            <v-btn outline color="grey" small>阿斯达</v-btn>
+            <v-btn outline color="grey" small>阿斯达</v-btn>
+            <v-btn outline color="grey" small>阿斯达</v-btn>
+            <v-btn outline color="grey" small>阿斯达</v-btn>
+            <v-btn outline color="grey" small>阿斯达</v-btn>
+            <v-btn outline color="grey" small>阿斯达</v-btn>
+            <v-btn outline color="grey" small>阿斯达</v-btn>
+          </div>
+        </v-layout>
       </v-flex>
       <v-flex xs6>
         <div class="footer-title white--text">打赏支持</div>
-        <v-flex>
-          <img class="image-donate" src="https://blog.messikiller.net/images/donate-wechat.jpg" />
-          <img class="image-donate" src="https://blog.messikiller.net/images/donate-wechat.jpg" />
-        </v-flex>
+        <div class="donate-container">
+          <div class="image-item">
+            <img class="image-donate" src="https://blog.messikiller.net/images/donate-wechat.jpg" />
+            <div class="image-title">微信</div>
+          </div>
+          <div class="image-item">
+            <img class="image-donate" src="https://blog.messikiller.net/images/donate-alipay.jpg" />
+            <div class="image-title">支付宝</div>
+          </div>
+        </div>
       </v-flex>
     </v-layout>
     <div class="line-divider"></div>
@@ -44,10 +54,26 @@ export default {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.donate-container {
+  display: flex;
+  justify-content: center;
+}
+
+.image-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.image-item:first-child {
+  margin-right: 30px;
+}
+
 .image-donate {
   height: 150px;
 }
-.image-donate:first-child {
-  margin-right: 20px;
+
+.image-title {
+  margin-top: 10px;
 }
 </style>

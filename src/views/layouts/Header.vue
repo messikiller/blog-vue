@@ -10,6 +10,7 @@
     <v-layout align-center justify-end row fill-height>
       <v-toolbar-items class="hidden-sm-and-down">
 
+        <v-btn dark flat><v-icon>home</v-icon>&ensp;Home</v-btn>
         <v-menu offset-y v-for="(cate, pIdx) in cates" :key="pIdx" open-on-hover>
           <template v-slot:activator="{ on }">
             <v-btn dark flat v-on="on">

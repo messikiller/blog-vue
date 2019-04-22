@@ -14,9 +14,6 @@
             <p>{{ article.content }}</p>
           </v-card-text>
           <v-card-actions class="white grey--text body-1">
-            <v-icon color="grey lighten-1" class="subheading">date_range</v-icon>
-            <span class="mr-2"> 2018-12-25</span>
-            <span class="mr-1">/</span>
             <v-icon color="grey lighten-1" class="subheading">remove_red_eye</v-icon>
             <span class="mr-2"> 256</span>
             <span class="mr-1">/</span>
