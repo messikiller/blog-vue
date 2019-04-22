@@ -55,9 +55,13 @@
         <v-card-text class="white text--primary">
           <v-btn outline color="#3c763d" small round>Outline Button</v-btn>
           <v-btn outline color="indigo" small round>Outline Button</v-btn>
+          <v-btn outline color="#3c763d" small round>Outline Button</v-btn>
           <v-btn outline color="indigo" small round>Outline Button</v-btn>
+          <v-btn outline color="#3c763d" small round>Outline Button</v-btn>
           <v-btn outline color="indigo" small round>Outline Button</v-btn>
+          <v-btn outline color="#3c763d" small round>Outline Button</v-btn>
           <v-btn outline color="indigo" small round>Outline Button</v-btn>
+          <v-btn outline color="#3c763d" small round>Outline Button</v-btn>
           <v-btn outline color="indigo" small round>Outline Button</v-btn>
         </v-card-text>
       </v-card>
